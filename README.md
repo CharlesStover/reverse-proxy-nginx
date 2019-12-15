@@ -5,7 +5,7 @@ The nginx layer of a containerized reverse proxy.
 ## Build
 
 ```
-docker build --file Dockerfile --tag charlesstover/reverse-proxy-nginx .
+docker build --file Dockerfile --tag charlesstover/reverse-proxy-nginx .;
 ```
 
 ## Run
@@ -23,7 +23,7 @@ docker run \
   --volume /PATH/TO/etc/openssl:/etc/openssl \
   --volume /PATH/TO/var/log/reverse-proxy-nginx:/var/log/nginx \
   --volume /PATH/TO/var/www/certbot:/var/www/certbot \
-  charlesstover/reverse-proxy-nginx
+  charlesstover/reverse-proxy-nginx;
 ```
 
 Your SSL certificates will be retrieved from `/PATH/TO/etc/letsencrypt`. It

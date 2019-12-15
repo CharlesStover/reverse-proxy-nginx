@@ -13,6 +13,6 @@ RUN mkdir /var/www/certbot
 
 RUN rm -rf /crontab.txt
 
-ENTRYPOINT [ "/bin/bash", "/home/entrypoint.sh" ]
+ENTRYPOINT [ "/bin/sh", "/home/entrypoint.sh" ]
 
 EXPOSE 80 443
