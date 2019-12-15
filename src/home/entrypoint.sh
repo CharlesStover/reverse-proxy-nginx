@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-/bin/bash /home/dhparam.sh;
+/bin/sh /home/dhparam.sh;
 
 nginx;
